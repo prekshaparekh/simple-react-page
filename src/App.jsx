@@ -26,20 +26,22 @@ function App() {
         <div>
           <h1>{current.text2}</h1>
         </div>
-        <button
-          type="button"
-          className="no"
-          onClick={() => setStatus('notMad')}
-        >
-          NO
-        </button>
-        <button
-          type="button"
-          className="Yes"
-          onClick={() => setStatus('stillMad')}
-        >
-         YES
-        </button>
+        <div class="buttons">
+          <button
+            type="button"
+            className="no"
+            onClick={() => setStatus('notMad')}
+          >
+            NO
+          </button>
+          <button
+            type="button"
+            className="Yes"
+            onClick={() => setStatus('stillMad')}
+          >
+          YES
+          </button>
+        </div>
       </section>
 
         </>
